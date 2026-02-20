@@ -37,3 +37,9 @@ See `CONTRIBUTING.md`. We use lightweight RFCs in `rfcs/`.
 
 ## License
 Apache-2.0 (see LICENSE).
+
+## Repo Structure
+- spec/ — specification drafts
+- schemas/ — JSON Schemas
+- examples/ — reference examples
+

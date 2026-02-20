@@ -1,0 +1,32 @@
+{
+  "jsonhd": "0.1",
+  "profile": "zip/0.1",
+  "id": "urn:uuid:11111111-2222-3333-4444-555555555555",
+  "created": "2026-02-13T00:00:00Z",
+  "about": {
+    "title": "ZIP Minimal Sample",
+    "description": "Smallest useful JSON-HD package."
+  },
+  "payloads": [
+    {
+      "name": "hello",
+      "mediaType": "text/plain",
+      "ref": {
+        "type": "path",
+        "path": "payload/hello.txt"
+      }
+    }
+  ],
+  "integrity": {
+    "payloadHashMode": "sha256",
+    "manifestHash": {
+      "alg": "sha256",
+      "value": "0000000000000000000000000000000000000000000000000000000000000000"
+    }
+  },
+  "extensions": {
+    "org.json-hd.sample": {
+      "note": "Hashes are placeholders in samples."
+    }
+  }
+}

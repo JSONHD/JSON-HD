@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://json-hd.org/schemas/integrity.schema.json",
+  "title": "JSON-HD Integrity",
+  "type": "object",
+  "required": [
+    "manifestHash"
+  ],
+  "properties": {
+    "payloadHashMode": {
+      "type": "string"
+    },
+    "manifestHash": {
+      "type": "object",
+      "required": [
+        "alg",
+        "value"
+      ],
+      "properties": {
+        "alg": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string",
+          "minLength": 8
+        }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,40 @@
+{
+  "jsonhd": "0.1",
+  "profile": "zip/0.1",
+  "id": "urn:uuid:aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee",
+  "created": "2026-02-13T00:00:00Z",
+  "about": {
+    "title": "ZIP Media Sample",
+    "description": "Sample with image payload + thumbnail."
+  },
+  "payloads": [
+    {
+      "name": "poster",
+      "mediaType": "image/jpeg",
+      "ref": {
+        "type": "path",
+        "path": "payload/image/poster.jpg"
+      }
+    },
+    {
+      "name": "poster_thumb_256",
+      "mediaType": "image/jpeg",
+      "ref": {
+        "type": "path",
+        "path": "payload/thumb/poster_256.jpg"
+      }
+    }
+  ],
+  "integrity": {
+    "payloadHashMode": "sha256",
+    "manifestHash": {
+      "alg": "sha256",
+      "value": "0000000000000000000000000000000000000000000000000000000000000000"
+    }
+  },
+  "extensions": {
+    "org.json-hd.sample": {
+      "note": "Minimal JPEG bytes for portability."
+    }
+  }
+}

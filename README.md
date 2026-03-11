@@ -1,6 +1,6 @@
-# JSON-HD (High Definition Metadata)
+# JSON-HD
 
-JSON-HD is a hybrid metadata container format: a **human-readable JSON manifest** plus **efficient payload storage** (binary and/or files), designed for interoperability, integrity, and partial access.
+JSON-HD is a hybrid document container format: a **human-readable JSON manifest** plus **efficient payload storage** (binary and/or files), designed for interoperability, integrity, and partial access.
 
 Think: “JSON for meaning + structured payloads for scale.”
 
